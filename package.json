@@ -1,0 +1,32 @@
+{
+  "name": "goodstart",
+  "version": "1.0.0",
+  "description": "A good start for a new typescript project",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "jest --coverage"
+  },
+  "author": "Joel Brage",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@types/jest": "^23.3.9",
+    "esm": "^3.0.84",
+    "jest": "^23.6.0",
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "ts-jest": "^23.10.5",
+    "ts-lint": "^4.5.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.1.6"
+  }
+}
